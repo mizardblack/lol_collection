@@ -1,37 +1,16 @@
-Welcome to Glitch
-=================
+# Lol Collection
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+This webpage is made by [Simone Sun](https://github.com/mizardblack)for class Core
+Studio, System homework **5-in-5**.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+## Project Explianation
 
-Find out more [about Glitch](https://glitch.com/about).
+This webpage collects and display all the Instagram messages registered
+under Simone Sun's Instagram account. Her emotions get to express
+through these messages. It is also interesting to see sometimes she uses
+**"lol"** as a polite reply when she was actually "speekless" or lost
+interests. When she used a long word ending with repetitive "l "(for
+example, "lollllll"), she was expressing joy or she actually felt funny
+about the content.
 
-
-Your Project
-------------
-
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
-### ← index.html
-
-Where you'll write the content of your website. 
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+\ ゜ o ゜)ノ
