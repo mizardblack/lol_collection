@@ -1,0 +1,53 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background: black;
+  font-family: "itc-american-typewriter", cursive;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0 0;
+}
+#content {
+  margin: 10% 10%;
+}
+#title {
+  color: rgb(0, 255, 0);
+  font-size: 2em;
+}
+
+pre {
+  color: rgb(0, 255, 0);
+  font-size: 0.8em;
+}
+
+p,
+h1 {
+  color: black;
+  padding: 1% 0;
+  margin: 0 0;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+footer {
+  font-family: "itc-american-typewriter", cursive;
+  font-weight: 500;
+  font-style: normal;
+  background-color: rgba(200, 200, 200,0.3);
+  padding: 2% 8%;
+  position:fixed;
+  bottom:0;
+}
+
+footer:hover{
+  background: rgba(255, 255, 255,0.85);
+  
+}
+
+#about {
+  padding-bottom: 0;
+  font-weight: 800 !important;
+  text-align: center;
+  font-size: 1em;
+}
