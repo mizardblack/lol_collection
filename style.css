@@ -64,3 +64,8 @@ footer:hover {
   text-align: center;
   font-size: 1em;
 }
+
+a{
+  text-decoration:underline;
+  color:black;
+}
