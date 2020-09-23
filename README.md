@@ -1,6 +1,6 @@
 # LOL Collection
 
-This webpage is made by [Simone Sun](https://github.com/mizardblack)for class Core
+This webpage is made by [Simone Sun](https://github.com/mizardblack) for class Core
 Studio, System homework **5-in-5**.
 
 ## Project Explianation
