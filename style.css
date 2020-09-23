@@ -8,16 +8,19 @@ body {
   margin: 0 0;
 }
 #content {
+  color: rgb(0, 255, 0);
   margin: 10% 10%;
+  max-width:80%;
 }
 #title {
-  color: rgb(0, 255, 0);
   font-size: 2em;
 }
-
-pre {
-  color: rgb(0, 255, 0);
+#details {
   font-size: 0.8em;
+}
+
+.highlight {
+  color: rgb(255, 0, 0);
 }
 
 p,
@@ -34,15 +37,14 @@ footer {
   font-family: "itc-american-typewriter", cursive;
   font-weight: 500;
   font-style: normal;
-  background-color: rgba(200, 200, 200,0.3);
+  background-color: rgba(200, 200, 200, 0.3);
   padding: 2% 8%;
-  position:fixed;
-  bottom:0;
+  position: fixed;
+  bottom: 0;
 }
 
-footer:hover{
-  background: rgba(255, 255, 255,0.85);
-  
+footer:hover {
+  background: rgba(255, 255, 255, 0.85);
 }
 
 #about {
