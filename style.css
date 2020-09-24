@@ -5,26 +5,27 @@ body {
   font-family: "itc-american-typewriter", cursive;
   font-weight: 900;
   font-style: normal;
-  margin: 0 0;
+  margin: 0;
+  color: rgb(0, 255, 0);
 }
+
 header {
   background: black;
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 5% 10%;
-  padding-top:10%;
+  padding: 10vh 10vw 5vh 10vw;
 }
+
 #title {
   font-size: 2em;
-  color: rgb(0, 255, 0);
 }
 
 #content {
-  color: rgb(0, 255, 0);
-  margin: 17% 10%;
-  max-width: 80%;
+  margin: 17vh 10vw;
+  max-width: 80vw;
 }
+
 #details {
   font-size: 0.8em;
   font-weight: 400;
@@ -35,7 +36,7 @@ header {
 }
 
 p,
-h1 {
+h2 {
   color: black;
   padding: 1% 0;
   margin: 0 0;
@@ -60,12 +61,16 @@ footer:hover {
 
 #about {
   padding-bottom: 0;
-  font-weight: 800 !important;
+  font-weight: 800;
   text-align: center;
   font-size: 1em;
 }
 
-a{
+#project_des {
+  text-align: left;
+}
+
+a {
   text-decoration:underline;
   color:black;
 }
