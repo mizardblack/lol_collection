@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/otj6nrf.css" />
     <!-- import the webpage's javascript file -->
+    <!-- 
+      This link is currently broken which causes your javascript to not load 
+      Right now it's an absolute link, but it should be a relative link ("script.js") 
+      since the file is in the same directory as index.html
+    -->
     <script src="/script.js" defer></script>
   </head>
   <body>
@@ -1031,6 +1036,11 @@
         <a href="https://github.com/mizardblack">Simone Sun</a> for class Core
         Studio, System homework #5-in-5.
       </p>
+      <!-- 
+        Inline styling can be hard to keep track of over time as projects grow. 
+        Instead, you should style this p in your css. You can do it by adding a class
+        to this element.
+      -->
       <p style="text-align:left">
         This webpage collects and display all the Instagram messages registered
         under Simone Sun's Instagram account. Her emotions get to express
