@@ -5,41 +5,27 @@ body {
   font-family: "itc-american-typewriter", cursive;
   font-weight: 900;
   font-style: normal;
-  /* Using one zero for margin is a shorthand to set all margins to zero */
-  margin: 0 0;
+  margin: 0;
+  color: rgb(0, 255, 0);
 }
-/* It's common practice to have one blank line between each css selector */
+
 header {
   background: black;
   position: fixed;
   top: 0;
   width: 100%;
-  /* 
-    Adding padding / margin with percentages can get pretty tricky for different viewport sizes.
-    For the header, I wonder if a fixed padding might work better, as you might want it to look the same across devices?
-    If you do want it to respond to the viewport size, using vh and vw might work better. 
-  */
-  padding: 5% 10%;
-  /* You can merge the above lines to be padding: 10% 10% 5% 10%; The order is top right bottom left. */
-  padding-top:10%;
+  padding: 10vh 10vw 5vh 10vw;
 }
+
 #title {
   font-size: 2em;
-  /* 
-    If your header and #content elements were nested in one container html element, you could set the color once there
-    instead of repeating it. It would convenient to then change the color only in one place if you decide you want a different
-    color or different shade of green
-  */
-  color: rgb(0, 255, 0);
 }
 
 #content {
-  color: rgb(0, 255, 0);
-  /* See my comment above re:using percentages for padding/margin */
-  margin: 17% 10%;
-  /* I wonder if you want to use a fixed px value for max width */
-  max-width: 80%;
+  margin: 17vh 10vw;
+  max-width: 80vw;
 }
+
 #details {
   font-size: 0.8em;
   font-weight: 400;
@@ -75,20 +61,16 @@ footer:hover {
 
 #about {
   padding-bottom: 0;
-  /* 
-    Try to avoid using !important, if your css is not applied it means 
-    you need to make you selector more specific 
-  */
-  font-weight: 800 !important;
+  font-weight: 800;
   text-align: center;
   font-size: 1em;
 }
-#project_des{
+
+#project_des {
   text-align: left;
 }
 
-/* It's common practice to have a space in between the selector and the opening curly brace */
-a{
+a {
   text-decoration:underline;
   color:black;
 }
