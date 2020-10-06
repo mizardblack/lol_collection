@@ -45,6 +45,10 @@ h2 {
   line-height: 1.5em;
 }
 
+/*Int the footer(hover), maybe you can try to use the transition-duration.*/
+
+/*Maybe try 0.2 instead of 0.3.*/
+
 footer {
   font-family: "itc-american-typewriter", cursive;
   font-weight: 500;
